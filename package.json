@@ -2,10 +2,10 @@
   "name": "kongnamul-ability",
   "version": "1.0.0",
   "description": "",
-  "main": "readmeUpdate.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node readmeUpdate.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
