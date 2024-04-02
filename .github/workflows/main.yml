@@ -5,7 +5,7 @@ name: Readme Update
 # Controls when the workflow will run
 # 워크플로가 실행되는 시기를 제어
 on:
-# 1시간에 한번씩 아래 스크립트를 실행
+# 하루에 한번씩 아래 스크립트를 실행
   schedule:
     - cron:  "0 0 * * *"
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
