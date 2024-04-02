@@ -1,15 +1,18 @@
 # This is a basic workflow to help you get started with Actions
-
+# 작업을 시작하는 데 도움이 되는 기본 워크플로우
 name: Readme Update
 
 # Controls when the workflow will run
+# 워크플로가 실행되는 시기를 제어
 on:
-# 1시간에 한번씩 아래 스크립트를 실행한다.
+# 1시간에 한번씩 아래 스크립트를 실행
   schedule:
     - cron: "0 */1 * * *"
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# 워크플로 실행은 순차적으로 또는 병렬로 실행할 수 있는 하나 이상의 작업으로 구성된다.
 jobs:
   # This workflow contains a single job called "build"
+  # 이 워크플로우에는 "빌드"라는 단일 작업이 포함되어 있다.
   build:
     runs-on: ubuntu-latest
     steps:
